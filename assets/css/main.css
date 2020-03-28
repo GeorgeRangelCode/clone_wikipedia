@@ -1,0 +1,32 @@
+header {
+  display: block;
+  text-align: center;
+  margin-top: 35px;
+}
+
+header > h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0px;
+  letter-spacing: 1.5px;
+}
+
+header > h1::first-letter,
+header > h1 > span {
+  font-size: 45px;
+  font-weight: 100;
+}
+
+header > p {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
